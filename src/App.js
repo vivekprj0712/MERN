@@ -2,6 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  var a = 10;
+  var isActive = true;
+  var user ={
+    name:"vivek",
+    age : 21
+  }
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +24,11 @@ function App() {
           Learn React
         </a>
       </header>
+
+          <h1>{a}</h1>
+          <h2>isActive: {isActive ? "Active" : "Is Not Active"}</h2>
+          <h2>user Name : {user.name}</h2>
+          <h2>user Age : {user.age}</h2>
     </div>
   );
 }
