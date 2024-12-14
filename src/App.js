@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import Task14 from './components/Task14';
+import DemoMap from './components/DemoMap';
+import Uni from './components/Uni';
+import College from './components/College';
 
 function App() {
   var a = 10;
@@ -10,25 +14,10 @@ function App() {
   }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-
-          <h1>{a}</h1>
-          <h2>isActive: {isActive ? "Active" : "Is Not Active"}</h2>
-          <h2>user Name : {user.name}</h2>
-          <h2>user Age : {user.age}</h2>
+        {/* <Task14/> */}
+        {/* <DemoMap/> */}
+        {/* <Uni/> */}
+        <College/>
     </div>
   );
 }
